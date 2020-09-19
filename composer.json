@@ -1,5 +1,5 @@
 {
-    "name": "hanson/meituan-sdk",
+    "name": "cblink/meituan-sdk",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "hanson/foundation-sdk": "^2.0"
+        "hanson/foundation-sdk": "^4.0"
     },
     "autoload": {
         "psr-4": {
