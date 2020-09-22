@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Meituan\Application\Wmoper;
+namespace Hanson\Meituan\Application\Wmoper\Core;
 
 use Hanson\Foundation\Foundation;
 

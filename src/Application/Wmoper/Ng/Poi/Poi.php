@@ -2,7 +2,7 @@
 
 namespace Hanson\Meituan\Application\Wmoper\Ng\Poi;
 
-use Hanson\Meituan\Application\Wmoper\Api;
+use Hanson\Meituan\Application\Wmoper\Core\Api;
 
 /**
  * Class Poi
