@@ -13,6 +13,7 @@ use Hanson\Meituan\Application;
  *
  * @property \Hanson\Meituan\AccessToken\AccessToken    $access_token
  * @property \Hanson\Meituan\Application\Waimai\Waimai  $waimai
+ * @property \Hanson\Meituan\Application\Wmoper\Wmoper  $wmoper
  * @property \Hanson\Meituan\Application\Coupon\Coupon  $coupon
  * @property \Hanson\Meituan\Application\Store\Store    $store
  */
@@ -24,6 +25,7 @@ class Meituan extends Foundation
         Application\Waimai\ServiceProvider::class,
         Application\Coupon\ServiceProvider::class,
         Application\Store\ServiceProvider::class,
+        Application\Wmoper\WmoperServiceProvider::class,
     ];
 
     public function createAuthorizer($authToken)
